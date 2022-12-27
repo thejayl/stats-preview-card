@@ -26,22 +26,29 @@
     <link rel="stylesheet" href="./style.css" />
 
     <title>Frontend Mentor | Stats preview card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    Get insights that help your business grow. Discover the benefits of data
-    analytics and make better decisions regarding revenue, customer experience,
-    and overall efficiency. 10k+ companies 314 templates 12m+ queries
+    <main>
+      <div class="container grid grid--2-cols">
+        <div class="card-information grid grid--3-rows">
+          <h1 class="info-title">
+            Get <span>insights</span> that help your business grow.
+          </h1>
+          <p class="info-description">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <ul class="info-status">
+            <li><span>10k+</span>companies</li>
+            <li><span>314</span>templates</li>
+            <li><span>12m+</span>queries</li>
+          </ul>
+        </div>
+        <div class="card-img">
+          <!-- <img src="./images/image-header-desktop.jpg" /> -->
+        </div>
+      </div>
+    </main>
 
     <div class="attribution">
       Challenge by
