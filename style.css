@@ -19,13 +19,13 @@ body {
   font-size: 1.5rem;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  background-color: #090b1a;
+  background-color: hsl(233, 49%, 7%);
 }
 
 .container {
   max-width: 110rem;
   border-radius: 8px;
-  background-color: #1b1938;
+  background-color: hsl(244, 38%, 16%);
   overflow: hidden;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .info-title span {
-  color: #aa5cdb;
+  color: hsl(277, 64%, 61%);
 }
 
 .info-description {
@@ -94,13 +94,11 @@ body {
 
 .card-img {
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(
-      rgba(170, 92, 219, 0.5),
-      rgba(170, 92, 219, 0.5)
-    ),
-    url(./images/image-header-desktop.jpg);
+  background-color: hsl(277, 64%, 61%);
+  background-image: url(./images/image-header-desktop.jpg);
+  background-blend-mode: multiply;
+  opacity: 0.8;
 }
 
 .attribution {
